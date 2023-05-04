@@ -22,8 +22,20 @@
     </main>
     <form action="action.php" method="POST">
         <label>Task Description</label>
-        <input type="text"/>
+        <input type="text" name="description"/>
         <button type="submit">Submit</button>
     </form>
+    <table>
+        <thead>
+            <tr>
+                <th>Task Description</th>
+                <th>Completion Status</th>
+                <th>Mark Complete</th>
+            </tr>
+        </thead>
+        <tbody>
+        <?php echo $_POST["description"]; ?>
+        </tbody>
+    </table>  
 </body>
 </html>
