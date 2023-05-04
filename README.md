@@ -10,8 +10,9 @@ PHP comes with a default web server that can be starting with the command `php -
 
 # MAMP Installation
 
-[MAMP](https://www.mamp.info/en/downloads/) can be downloaded for free. It is an Apache server by default. Once downloaded and opened, the document root of the default localhost can be changed by going to MAMP preferences. 
+[MAMP](https://www.mamp.info/en/downloads/) can be downloaded for free. Once downloaded and opened, the document root of the default localhost can be changed by going to MAMP preferences, allowing the user to open their desired webpage (in this case, file index.php). 
 
 # About the hello.php file
-This a small file that shows how html can be combined with php in a .php file to create a webpage. It does some cool things.
+This is a small file that shows how html can be combined with php in a .php file to create a webpage. It does some cool things.
 
+#

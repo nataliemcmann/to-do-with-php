@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,6 +12,14 @@
             text-align: center;
             margin: 10px;
             padding-top: 10px;
+            display: grid;
+        }
+        table {
+            text-align: center;
+            margin: 10px;
+        }
+        form {
+            margin: 10px;
         }
     </style>
 </head>
@@ -19,8 +29,9 @@
     </header>
     <main>
         <h2>Write down a task to complete.</h2>
+        <button action=index.php method="GET" name="testDB">Test DB Connection</button>
     </main>
-    <form>
+    <form action="index.php" method="POST">
         <label>Task Description</label>
         <input type="text" name="description"/>
         <button type="submit">Submit</button>
@@ -34,7 +45,6 @@
             </tr>
         </thead>
         <tbody>
-        <!-- <?php echo $_POST["description"]; ?> -->
         </tbody>
     </table>  
 </body>
