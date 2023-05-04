@@ -20,7 +20,7 @@
     <main>
         <h2>Write down a task to complete.</h2>
     </main>
-    <form action="action.php" method="POST">
+    <form>
         <label>Task Description</label>
         <input type="text" name="description"/>
         <button type="submit">Submit</button>
@@ -34,7 +34,7 @@
             </tr>
         </thead>
         <tbody>
-        <?php echo $_POST["description"]; ?>
+        <!-- <?php echo $_POST["description"]; ?> -->
         </tbody>
     </table>  
 </body>
