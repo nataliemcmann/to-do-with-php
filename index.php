@@ -1,4 +1,6 @@
-
+<?php 
+    require 'db_connect.php';
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -47,5 +49,6 @@
         <tbody>
         </tbody>
     </table>  
+    <?php phpinfo(); ?>
 </body>
 </html>
