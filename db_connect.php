@@ -9,7 +9,8 @@
 
     // connect to postgresql
     try {
-        $dbh = new PDO(`pgsql:host=localhost;port=5432;dbname=weekend-to-do-app;user=postgres;password=$_ENV`);
+        $password = $_ENV["pg_password"];
+        $dbh = new PDO("pgsql:host=localhost;port=5432;dbname=weekend-to-do-app;user=postgres;password=$password");
         echo "PDO connection object created";
     }
     catch(PDOException $e) {

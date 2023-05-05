@@ -4,6 +4,8 @@
     class DotEnvironment {
         private $path;
         private $tmp_env;
+        //this functions takes a parameter of a file path from the 
+        //instantiation event
         function __construct($env_path = ""){
             // Check if .env file path has provided
             if(empty($env_path)){
